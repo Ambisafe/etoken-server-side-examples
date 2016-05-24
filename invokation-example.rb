@@ -1,8 +1,8 @@
-balance = `node get-balance.js 1c4a10b09f54c2a2601b71e7644124efefd2cd7b`;
+balance = `node get-balance.js 0xe2942418b2d87a1d88cce66d0b11c7ef16a72971`;
 print "balance: " + balance;
 
 #send transaction to regular address
-destination = '1c4a10b09f54c2a2601b71e7644124efefd2cd7b';
+destination = '0xe2942418b2d87a1d88cce66d0b11c7ef16a72971';
 amount = 1.12;
 txid = `node send-tx.js #{destination} #{amount}`;
 print "transaction hash: #{txid}";
@@ -12,4 +12,4 @@ print "transaction hash: #{txid}";
 destination = 'INST2314ACCT234234';
 amount = 1.12;
 txid = `node send-tx.js #{destination} #{amount}`;
-print "transaction hash: #{txid}";
+print "second transaction hash: #{txid}";
