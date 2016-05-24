@@ -1,4 +1,9 @@
 # eToken Server Side Examples
+## Installation
+
+`npm install`
+
+## Information
 
 eToken is a smart contract, built using [Ethereum cryptocurrency network](https://ethereum.org/) and [Solidity programming language](https://solidity.readthedocs.io/en/latest/) by [Ambisafe](https://ambisafe.co/).
 
