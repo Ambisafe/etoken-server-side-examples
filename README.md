@@ -10,3 +10,8 @@ Unless your applicadtion is written in NodeJS you end up with necessity to run a
 For the sake of simplicity this examples use "cgi-bin" approach. It will work properly only when sending no more than 1 transaction per block. We recommend setting an artificial limit to 1 tx per 70 seconds if you are not keeping track of ethereum address nonce.
 
 If you anticipate a higher volume of outgoing transactions - please research web3 and implement nodejs microservice for sending transactions.
+
+#### Useful Links
+
+1. [link](https://github.com/Ambisafe/etoken-docs/wiki/eToken-Standard-Token-API "eToken contract documentation")
+2. [link](https://github.com/Ambisafe/etoken-docs/wiki/Transaction-Notifications "Transaction notifications service")
