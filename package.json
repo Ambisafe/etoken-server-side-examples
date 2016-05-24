@@ -22,6 +22,6 @@
   "homepage": "https://github.com/Ambisafe/etoken-server-side-examples#readme",
   "dependencies": {
     "web3": "^0.16.0",
-    "etoken-lib": "^0.0.0"
+    "etoken-lib": "^0.0.3"
   }
 }
