@@ -13,5 +13,5 @@ If you anticipate a higher volume of outgoing transactions - please research web
 
 #### Useful Links
 
-1. [link](https://github.com/Ambisafe/etoken-docs/wiki/eToken-Standard-Token-API "eToken contract documentation")
-2. [link](https://github.com/Ambisafe/etoken-docs/wiki/Transaction-Notifications "Transaction notifications service")
+1. [eToken contract documentation](https://github.com/Ambisafe/etoken-docs/wiki/eToken-Standard-Token-API "eToken contract documentation")
+2. [Transaction notifications service](https://github.com/Ambisafe/etoken-docs/wiki/Transaction-Notifications "Transaction notifications service")
