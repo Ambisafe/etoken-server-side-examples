@@ -1,5 +1,7 @@
 # eToken Server Side Examples
 
+eToken is a smart contract, built using [Ethereum cryptocurrency network](https://ethereum.org/) and [Solidity programming language](https://solidity.readthedocs.io/en/latest/) by [Ambisafe](https://ambisafe.co/).
+
 This repository provides an examples of integration with eToken smart contract for ruby and php.
 
 The main problem with integrating ethereum smart contract with anything that is not written in JavaScript 
