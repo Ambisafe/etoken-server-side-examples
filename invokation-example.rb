@@ -1,15 +1,15 @@
-balance = `node get-balance.js 0xe2942418b2d87a1d88cce66d0b11c7ef16a72971`;
+balance = `node get-balance.js 0x53786e5722f854a62783395dcdc27d633a9b063e`;
 print "balance: " + balance;
 
 #send transaction to regular address
-destination = '0xe2942418b2d87a1d88cce66d0b11c7ef16a72971';
+destination = '0x53786e5722f854a62783395dcdc27d633a9b063e';
 amount = 1.12;
 txid = `node send-tx.js #{destination} #{amount}`;
 print "transaction hash: #{txid}";
 
 
 #send transaction to ICAP address
-destination = 'INST2314ACCT234234';
+destination = 'AMBICLIENT123';
 amount = 1.12;
 txid = `node send-tx.js #{destination} #{amount}`;
 print "second transaction hash: #{txid}";

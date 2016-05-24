@@ -28,7 +28,7 @@ if (EToken.web3.isAddress(destination)) {
     && !(destination.length === 16 && destination.slice(0, 3) === config.icapAssetCode)
     && !(destination.length === 20 && destination.slice(4, 3) === config.icapAssetCode))
   {
-    throw "Invalid ICAP format. It should be 13, 16, or 20 chars long: INSTCLIENT123, " + config.icapAssetCode + "INSTCLIENT123, " + EToken.web3.eth.iban.fromBban(config.icapAssetCode + "INSTCLIENT123").toString() + ".";
+    throw "Invalid ICAP format. It should be 13, 16, or 20 chars long: AMBICLIENT123, " + config.icapAssetCode + "AMBICLIENT123, " + EToken.web3.eth.iban.fromBban(config.icapAssetCode + "AMBICLIENT123").toString() + ".";
   }
   var icap = destination.length === 20 ? destination :
     destination.length === 16 ? EToken.web3.eth.iban.fromBban(destination).toString() :
