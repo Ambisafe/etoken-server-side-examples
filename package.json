@@ -1,0 +1,27 @@
+{
+  "name": "etoken-server-side-examples",
+  "version": "1.0.0",
+  "description": "Examples on how to use eToken platform from backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambisafe/etoken-server-side-examples.git"
+  },
+  "keywords": [
+    "etoken",
+    "ethereum"
+  ],
+  "author": "Ambisafe Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ambisafe/etoken-server-side-examples/issues"
+  },
+  "homepage": "https://github.com/Ambisafe/etoken-server-side-examples#readme",
+  "dependencies": {
+    "web3": "^0.16.0",
+    "etoken-lib": "^0.0.0"
+  }
+}
