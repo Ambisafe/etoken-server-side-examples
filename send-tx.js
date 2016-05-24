@@ -9,7 +9,7 @@ var privateKey = config.privateKey[1] === 'x' ? config.privateKey.slice(2) : con
 EToken.setPrivateKey(privateKey);
 var sender = EToken.privateToAddress(privateKey);
 var asset = EToken.web3.eth.contract(config.abi).at(config.address);
-var destination = process.argv[2];
+var destination = process.argv[2][1] === 'x' ? process.argv[2] : '0x' + process.argv[2];
 var amount = EToken.web3.toBigNumber(process.argv[3]).mul(Math.pow(10, config.baseUnit));
 if (amount.decimalPlaces() !== 0) {
   throw "Provide " + amount.decimalPlaces() + " less fractional digits in the amount: " + amount.valueOf() + " . Only " + config.baseUnit + " fractional digits allowed.";
