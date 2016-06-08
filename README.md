@@ -11,16 +11,16 @@ Specify private key of sender account in the `config.js`.
 
 eToken is a smart contract, built using [Ethereum cryptocurrency network](https://ethereum.org/) and [Solidity programming language](https://solidity.readthedocs.io/en/latest/) by [Ambisafe](https://ambisafe.co/).
 
-This repository provides an examples of integration with eToken smart contract for ruby and php.
+This repository provides an examples of integration with eToken smart contract for Ruby and PHP.
 
-The main problem with integrating ethereum smart contract with anything that is not written in JavaScript 
+The main problem with integrating Ethereum smart contract with anything that is not written in JavaScript
 is that to execute any smart contract function you need web3 library, which was implemented only in javascript.
 
-Unless your applicadtion is written in NodeJS you end up with necessity to run additional nodejs microservice to interact with Ethereum.
+Unless your application is written in NodeJS you end up with necessity to run additional NodeJS micro service to interact with Ethereum.
 
-For the sake of simplicity this examples use "cgi-bin" approach. It will work properly only when sending no more than 1 transaction per block. We recommend setting an artificial limit to 1 tx per 70 seconds if you are not keeping track of ethereum address nonce.
+For the sake of simplicity this examples use "cgi-bin" approach. It will work properly only when sending no more than 1 transaction per block. We recommend setting an artificial limit to 1 transaction per 70 seconds if you are not keeping track of Ethereum address nonce.
 
-If you anticipate a higher volume of outgoing transactions - please research web3 and implement nodejs microservice for sending transactions.
+If you anticipate a higher volume of outgoing transactions - please research web3 and implement NodeJS micro service for sending transactions.
 
 #### Useful Links
 
