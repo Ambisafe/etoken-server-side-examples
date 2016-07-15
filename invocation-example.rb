@@ -1,8 +1,8 @@
-balance = `node get-balance.js 0x53786e5722f854a62783395dcdc27d633a9b063e`;
+balance = `node get-balance.js 0x1ff21eca1c3ba96ed53783ab9c92ffbf77862584`;
 print "balance: " + balance;
 
 #send transaction to regular address
-destination = '0x53786e5722f854a62783395dcdc27d633a9b063e';
+destination = '0x1ff21eca1c3ba96ed53783ab9c92ffbf77862584';
 amount = 1.12;
 txid = `node send-tx.js #{destination} #{amount}`;
 print "transaction hash: #{txid}";
